@@ -85,12 +85,25 @@ main {
     margin-left: 100px;
 }
 
+.about-details ul {
+    list-style: none;
+    padding: 0;
+    color: #8a8989;
+}
+.about-details ul li {
+    margin: 12px 0;
+}
+.about-details .fa-solid {
+    color: rgb(32, 233, 32);
+    font-size: 18px;
+    margin-right: 10px;
+}
 /* plan section css  */
 
 .plan-title {
     text-transform: capitalize;
     text-align: center;
-    margin: 100px 0px 50px 0px;
+    margin: 100px 0px 70px 0px;
 }
 
 .plans {
