@@ -9,10 +9,12 @@ p {
     font-size: 16px;
     line-height: 26px;
 }
+
 h2 {
     font-weight: 700;
-font-size: 40px;
+    font-size: 40px;
 }
+
 button {
     width: 160px;
     height: 64px;
@@ -63,29 +65,49 @@ main {
     width: 70vw;
     margin: 0 auto;
 }
+
 /* about section css  */
- #about-section {
+#about-section {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
- }
- .about-img {
+}
+
+.about-img {
     width: 50%;
- }
- .about-details {
+}
+
+.about-details {
     width: 28%;
     display: flex;
     align-items: center;
     margin-left: 100px;
- }
+}
 
- /* plan section css  */
+/* plan section css  */
 
- .plan-title {
+.plan-title {
     text-transform: capitalize;
     text-align: center;
- }
- .plans {
+    margin: 100px 0px 50px 0px;
+}
+
+.plans {
     display: flex;
     flex-direction: row;
- }
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.plan-item {
+    /* width: 25%; */
+    text-align: center;
+}
+.plan-item h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-item p {
+    font-size: 25px;
+}
+/* .Contact area css  */
