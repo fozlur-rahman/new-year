@@ -9,7 +9,10 @@ p {
     font-size: 16px;
     line-height: 26px;
 }
-
+h2 {
+    font-weight: 700;
+font-size: 40px;
+}
 button {
     width: 160px;
     height: 64px;
@@ -61,4 +64,28 @@ main {
     margin: 0 auto;
 }
 /* about section css  */
- 
+ #about-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+ }
+ .about-img {
+    width: 50%;
+ }
+ .about-details {
+    width: 28%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+ }
+
+ /* plan section css  */
+
+ .plan-title {
+    text-transform: capitalize;
+    text-align: center;
+ }
+ .plans {
+    display: flex;
+    flex-direction: row;
+ }
