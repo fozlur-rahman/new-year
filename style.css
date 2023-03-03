@@ -103,11 +103,38 @@ main {
     /* width: 25%; */
     text-align: center;
 }
+
 .plan-item h3 {
     font-size: 30px;
     font-weight: 700;
 }
+
 .plan-item p {
     font-size: 25px;
 }
+
 /* .Contact area css  */
+.contact-area {
+    /* height:  */
+    width: 100%;
+    background-image: url(images/watch.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.contact-overly {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+.contact {
+    padding: 60px;
+    color: white;
+}
+.contact button {
+    background: #f8f7f7;
+    color: #F15B22;
+    
+}
